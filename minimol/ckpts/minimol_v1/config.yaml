@@ -18,7 +18,7 @@ datamodule:
         splits_path: graphium/data/neurips2023/large-dataset/l1000_vcap_random_splits.pt
         # df_path: graphium/data/neurips2023/foat_th4_reset_index/LINCS_L1000_VCAP_0-2_th4.csv
         # splits_path: graphium/data/neurips2023/foat_th4_reset_index/LINCS_L1000_VCAP_0-2_th4_no_admet_test_random_split.pt
-        # wget https://storage.googleapis.com/graphium-public/datasets/neurips_2023/Large-dataset/LINCS_L1000_VCAP_0-4.csv.gz
+        # wget https://storage.valencelabs.com/graphium/datasets/neurips_2023/Large-dataset/LINCS_L1000_VCAP_0-4.csv.gz
         # or set path as the URL directly
         smiles_col: "SMILES"
         label_cols: geneID-*  # geneID-* means all columns starting with "geneID-"
@@ -32,7 +32,7 @@ datamodule:
         splits_path: graphium/data/neurips2023/large-dataset/l1000_mcf7_random_splits.pt
         # df_path: graphium/data/neurips2023/foat_th4_reset_index/LINCS_L1000_MCF7_0-2_th4.csv
         # splits_path: graphium/data/neurips2023/foat_th4_reset_index/LINCS_L1000_MCF7_0-2_th4_no_admet_test_random_split.pt
-        # wget https://storage.googleapis.com/graphium-public/datasets/neurips_2023/Large-dataset/LINCS_L1000_MCF7_0-4.csv.gz
+        # wget https://storage.valencelabs.com/graphium/datasets/neurips_2023/Large-dataset/LINCS_L1000_MCF7_0-4.csv.gz
         # or set path as the URL directly
         smiles_col: "SMILES"
         label_cols: geneID-*  # geneID-* means all columns starting with "geneID-"
@@ -46,7 +46,7 @@ datamodule:
         splits_path: graphium/data/neurips2023/large-dataset/pcba_1328_random_splits.pt
         # df_path: graphium/data/neurips2023/foat_th4_reset_index/PCBA_1328_1564k.parquet
         # splits_path: graphium/data/neurips2023/foat_th4_reset_index/PCBA_1328_1564k_no_admet_test_random_split.pt
-        # wget https://storage.googleapis.com/graphium-public/datasets/neurips_2023/Large-dataset/PCBA_1328_1564k.parquet
+        # wget https://storage.valencelabs.com/graphium/datasets/neurips_2023/Large-dataset/PCBA_1328_1564k.parquet
         # or set path as the URL directly
         smiles_col: "SMILES"
         label_cols: assayID-*  # assayID-* means all columns starting with "assayID-"
@@ -60,7 +60,7 @@ datamodule:
         splits_path: graphium/data/neurips2023/large-dataset/pcqm4m_g25_n4_random_splits.pt
         # df_path: graphium/data/neurips2023/foat_th4_reset_index/PCQM4M_G25_N4.parquet
         # splits_path: graphium/data/neurips2023/foat_th4_reset_index/PCQM4M_G25_N4_no_admet_test_random_split.pt
-        # wget https://storage.googleapis.com/graphium-public/datasets/neurips_2023/Large-dataset/PCQM4M_G25_N4.parquet
+        # wget https://storage.valencelabs.com/graphium/datasets/neurips_2023/Large-dataset/PCQM4M_G25_N4.parquet
         # or set path as the URL directly
         smiles_col: "ordered_smiles"
         label_cols: graph_*  # graph_* means all columns starting with "graph_"
@@ -77,7 +77,7 @@ datamodule:
         splits_path: graphium/data/neurips2023/large-dataset/pcqm4m_g25_n4_random_splits.pt
         # df_path: graphium/data/neurips2023/foat_th4_reset_index/PCQM4M_G25_N4.parquet
         # splits_path: graphium/data/neurips2023/foat_th4_reset_index/PCQM4M_G25_N4_no_admet_test_random_split.pt
-        # wget https://storage.googleapis.com/graphium-public/datasets/neurips_2023/Large-dataset/PCQM4M_G25_N4.parquet
+        # wget https://storage.valencelabs.com/graphium/datasets/neurips_2023/Large-dataset/PCQM4M_G25_N4.parquet
         # or set path as the URL directly
         smiles_col: "ordered_smiles"
         label_cols: node_* # node_* means all columns starting with "node_"
